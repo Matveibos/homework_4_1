@@ -10,3 +10,27 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2TkEsPY+cvMW/kgluC2HKHZ7npZSAuSEXOu6/HPl/
 2. Создать Job, она должна уметь разворачивать ELK stack на другом slave любым способом. Если не хватает ресурсов, тогда развернуть только Elasticsearch.
 
 docker run -p 5601:5601 -p 9200:9200 -p 5044:5044 -it --name elk sebp/elk
+
+
+
+
+pipeline {
+    agent any
+    stages {
+        stage('Non-Parallel Stage') {
+            steps {
+                echo "Executing this stage first"
+            }
+        }
+        stage('Parallel Stage') {
+            parallel {
+                stage('Parallel Test 1') {
+                    steps {
+                        build(job: "firstjob")
+                        build(job: "secondjob")
+                    }
+                }
+            }
+        }
+    }
+}
