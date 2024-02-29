@@ -4,3 +4,7 @@ dckr_pat_3PHz-u8THCQ_423__sSVSDkhfak
 
 
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC2TkEsPY+cvMW/kgluC2HKHZ7npZSAuSEXOu6/HPl/wYbyBcZgbzGm2x/YekpAZh5/z17HEja9OecW+vRqg+E34QA11aeyflWec1f+1KX8zdmPlMlGMA/1g3CIor5/AHrrIJbGFQVS8ipU3ErLBygrhaeWccTTjwrQWclCX2m7e9EmJ6ncUNPlTKktxTSYXkmUK/5IF66gG6PvH4MU2ELpEAnI9Gm4TWyLonVBEdI0q2rRyW9H4FvPZkyITSAedyK/7N/gK2nxx6adWbP/gvI2ZM8TF4qY941WzW4NtP/Fmoj2zwXEIiVcOqr6WS0a0pdMFr7RIbCEc9jxCZ4EgI9mp7ur+Y+VzZIydm1UDKB8ODdyVFj6pkQfP14Ck3cLLLFNB5KQCEhHNcViWw1yt48fMIAYiAnpPTz05SI1C90NZ6Olohiyzvu/GVNR0UAJ3GDcFARJO0RyrNWQinB1lEapvbj0qBjtwZeOQSrq6/IgNDpP98xpi65+x+M31bqAZns= matvey@matveybos
+
+
+
+2. Создать Job, она должна уметь разворачивать ELK stack на другом slave любым способом. Если не хватает ресурсов, тогда развернуть только Elasticsearch.
