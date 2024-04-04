@@ -91,3 +91,8 @@ Did you mean?  open3
 
 
 export LD_LIBRARY_PATH=/path/to/openssl/lib:$LD_LIBRARY_PATH
+
+
+export LDFLAGS="-L/usr/local/opt/openssl/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl/include"
+bundle install --local
