@@ -83,3 +83,10 @@ sudo apt-get install openssl libssl-dev
 
 
 ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'
+
+
+<internal:/usr/local/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:127:in `require': cannot load such file -- openssl (LoadError)
+Did you mean?  open3
+	from <internal:/usr/local/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:127:in `require'
+
+
