@@ -96,3 +96,9 @@ export LD_LIBRARY_PATH=/path/to/openssl/lib:$LD_LIBRARY_PATH
 export LDFLAGS="-L/usr/local/opt/openssl/lib"
 export CPPFLAGS="-I/usr/local/opt/openssl/include"
 bundle install --local
+
+
+
+Could not load OpenSSL.
+You must recompile Ruby with OpenSSL support
+
