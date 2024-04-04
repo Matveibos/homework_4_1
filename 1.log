@@ -79,3 +79,7 @@ If there aren't any reports for this error yet, please fill in the new issue for
 
 
 sudo apt-get install openssl libssl-dev
+
+
+
+ruby -ropenssl -e 'puts OpenSSL::OPENSSL_VERSION'
