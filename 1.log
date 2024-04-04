@@ -90,3 +90,4 @@ Did you mean?  open3
 	from <internal:/usr/local/lib/ruby/3.3.0/rubygems/core_ext/kernel_require.rb>:127:in `require'
 
 
+export LD_LIBRARY_PATH=/path/to/openssl/lib:$LD_LIBRARY_PATH
