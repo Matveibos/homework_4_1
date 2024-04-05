@@ -113,3 +113,25 @@ gems cached in vendor/cache.
 The source contains the following gems matching 'nokogiri (~> 1.15.5)':
   * nokogiri-1.15.5-x86-linux
 
+
+
+
+
+
+
+
+
+
+
+
+
+[!] There was an error parsing `Gemfile`: `x86_64_linux` is not a valid platform. The available options are: [:ruby, :ruby_18, :ruby_19, :ruby_20, :ruby_21, :ruby_22, :ruby_23, :ruby_24, :ruby_25, :ruby_26, :ruby_27, :ruby_30, :ruby_31, :ruby_32, :ruby_33, :ruby_34, :mri, :mri_18, :mri_19, :mri_20, :mri_21, :mri_22, :mri_23, :mri_24, :mri_25, :mri_26, :mri_27, :mri_30, :mri_31, :mri_32, :mri_33, :mri_34, :rbx, :truffleruby, :jruby, :jruby_18, :jruby_19, :windows, :windows_18, :windows_19, :windows_20, :windows_21, :windows_22, :windows_23, :windows_24, :windows_25, :windows_26, :windows_27, :windows_30, :windows_31, :windows_32, :windows_33, :windows_34, :mswin, :mswin_18, :mswin_19, :mswin_20, :mswin_21, :mswin_22, :mswin_23, :mswin_24, :mswin_25, :mswin_26, :mswin_27, :mswin_30, :mswin_31, :mswin_32, :mswin_33, :mswin_34, :mswin64, :mswin64_19, :mswin64_20, :mswin64_21, :mswin64_22, :mswin64_23, :mswin64_24, :mswin64_25, :mswin64_26, :mswin64_27, :mswin64_30, :mswin64_31, :mswin64_32, :mswin64_33, :mswin64_34, :mingw, :mingw_18, :mingw_19, :mingw_20, :mingw_21, :mingw_22, :mingw_23, :mingw_24, :mingw_25, :mingw_26, :mingw_27, :mingw_30, :mingw_31, :mingw_32, :mingw_33, :mingw_34, :x64_mingw, :x64_mingw_20, :x64_mingw_21, :x64_mingw_22, :x64_mingw_23, :x64_mingw_24, :x64_mingw_25, :x64_mingw_26, :x64_mingw_27, :x64_mingw_30, :x64_mingw_31, :x64_mingw_32, :x64_mingw_33, :x64_mingw_34]. Bundler cannot continue.
+
+ #  from /home/matbos/red/opt/redmine/redmine-5.0.7/Gemfile:16
+ #  -------------------------------------------
+ #  gem 'csv', '~> 3.2.0'
+ >  gem 'nokogiri', (if Gem.ruby_version < Gem::Version.new('2.6.0')
+ #                     '~> 1.12.5'
+ #  -------------------------------------------
+
+
