@@ -102,3 +102,14 @@ bundle install --local
 Could not load OpenSSL.
 You must recompile Ruby with OpenSSL support
 
+
+
+
+
+Could not find gems matching 'nokogiri (~> 1.15.5)' valid for all resolution
+platforms (x86-linux, x86_64-linux) in cached gems or installed locally or in
+gems cached in vendor/cache.
+
+The source contains the following gems matching 'nokogiri (~> 1.15.5)':
+  * nokogiri-1.15.5-x86-linux
+
